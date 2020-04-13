@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/games/prototype/book-stacker/build/static/css/main.3b545306.chunk.css",
+    "main.js": "/games/prototype/book-stacker/build/static/js/main.bbfb5d32.chunk.js",
+    "main.js.map": "/games/prototype/book-stacker/build/static/js/main.bbfb5d32.chunk.js.map",
+    "runtime-main.js": "/games/prototype/book-stacker/build/static/js/runtime-main.b14a8623.js",
+    "runtime-main.js.map": "/games/prototype/book-stacker/build/static/js/runtime-main.b14a8623.js.map",
+    "static/js/2.68715706.chunk.js": "/games/prototype/book-stacker/build/static/js/2.68715706.chunk.js",
+    "static/js/2.68715706.chunk.js.map": "/games/prototype/book-stacker/build/static/js/2.68715706.chunk.js.map",
+    "index.html": "/games/prototype/book-stacker/build/index.html",
+    "precache-manifest.ed2ea5e30f306a3ed22488ee16148824.js": "/games/prototype/book-stacker/build/precache-manifest.ed2ea5e30f306a3ed22488ee16148824.js",
+    "service-worker.js": "/games/prototype/book-stacker/build/service-worker.js",
+    "static/css/main.3b545306.chunk.css.map": "/games/prototype/book-stacker/build/static/css/main.3b545306.chunk.css.map",
+    "static/js/2.68715706.chunk.js.LICENSE.txt": "/games/prototype/book-stacker/build/static/js/2.68715706.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/games/prototype/book-stacker/build/static/media/magslab-normal-700.5bbc4ff8.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b14a8623.js",
+    "static/js/2.68715706.chunk.js",
+    "static/css/main.3b545306.chunk.css",
+    "static/js/main.bbfb5d32.chunk.js"
+  ]
+}

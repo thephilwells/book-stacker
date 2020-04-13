@@ -1,0 +1,25 @@
+:root {
+  --link-text-blue: #2F80ED;
+  --modal-button-blue: #2D9CDB;
+
+  --skyscraper-blue: #2A87E9;
+  --goldenrod: #f8cd05;
+	--spellingbee-yellow: #f8cd05;
+  --kenken-beige: #FFECD7;
+  --wordmaze-cyan: #008B8B;
+  --cascade-purple: #B383E4;
+  --cascade-purple-light: #d4d0d8;
+  --wordmorph-red: #F14E62;
+  --geometro-blue: #1ca0ff;
+  --bubble-up-teal: #55C1C1;
+  --square-dance-green: #82CE92;
+  --square-dance-peach:  #f8aa9e;
+  --books-light-goldenrod: #FFE0CA;
+  --word-cross-black: #2a3131;
+  --battleships-blue: #cef6ff;
+  --tiles-indigo: #054499;
+  --jigsaw-brown: #BAB1A7;
+  --gravity-golf-green: #5e8154;
+  --birds-blue: #8F608A;
+  --plant-life-orange: #ce751d;
+}

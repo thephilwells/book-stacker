@@ -1,0 +1,164 @@
+@import './styles/imports.css';
+@import './styles/legacy-header.css';
+
+/* Colors */
+.peach {
+  color: var(--books-light-goldenrod);
+}
+
+/* General Body */
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--books-light-goldenrod);
+  font-family: magsans;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  padding: 0;
+}
+
+#page {
+  position: relative;
+}
+
+button {
+  cursor: arrow;
+}
+
+div {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: magslab;
+  font-weight: normal;
+  font-size: 3rem;
+  margin: 0;
+  color: var(--books-light-goldenrod);
+}
+
+/* Header & Buttons */
+canvas {
+  z-index: 1;
+}
+
+header {
+  background-color: var(--books-light-goldenrod);
+  border-bottom: 1px solid black;
+  z-index: 2;
+  position: relative;
+}
+
+header h1 {
+  color: black;
+  font-size: 4em;
+}
+
+header #help-button, header #reset-button {
+  color: transparent;
+  border: none;
+}
+
+#help-button {
+  margin-right: 15px;
+}
+
+header #help-button {
+  background: url('./assets/help.png') no-repeat;
+  background-size: contain;
+}
+
+header #reset-button {
+  background: url('./assets/refresh.png') no-repeat;
+  background-size: contain;
+}
+
+.modal h1 {
+  color: black;
+}
+
+#scene-container {
+  width: 100%;
+}
+
+/* Concierge & Modals */
+#concierge {
+  background-color: black;
+}
+
+.modal .oblong-button{
+  background-color: var(--books-light-goldenrod);
+}
+
+.modal a {
+  border-bottom: 3px solid var(--books-light-goldenrod);
+}
+
+.modal button {
+  color: black;
+}
+
+.has-error {
+  animation: shake 0.9s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+#tip {
+  position: absolute;
+  width: 100%;
+  bottom: 3%;
+}
+
+@media (max-width: 360px) {
+  #tip {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.8rem;
+    line-height: 0;
+  }
+
+  #welcome h1 {
+    font-size: 2.5em;
+  }
+
+  #welcome p, #welcome ul li {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+#scene-container {
+  display: flex;
+}
+
+#scene-area {
+  margin-left: auto;
+  margin-right: auto;
+}

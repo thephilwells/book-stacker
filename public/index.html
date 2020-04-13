@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1,, maximum-scale=1.0,user-scalable=0" />
+  <meta name="theme-color" content="#000000" />
+  <title>Books!</title>
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <script src="lib/decomp.js" type="text/javascript"></script>
+  <script>
+    function closeModal(button) {
+      button.parentNode.parentNode.style.display='none'
+      document.querySelector('main').classList.toggle('obscured')
+    }
+  </script>
+
+    <!-- Help Modal -->
+    <div id="modal-container">
+    <div id="help-modal" class="modal">
+      <div class="modal-content">
+        <button
+          id="close-help"
+          class="close-x"
+          onclick="closeModal(this)">×</button>
+        <h1>Rules</h1>
+        <ul>
+          <li>Drag and drop books to rearrange the pile</li>
+          <li>All books of the same color have to touch</li>
+          <li>Beat your best time in as few moves as possible</li>
+        </ul>
+        <p>Sorted books look like this:</p>
+        <img src="win-state.png"</img>
+        <hr>
+        <button id="help-reset-button" class="oblong-button" onclick="window.location.reload()">Reset Puzzle</button>
+        <p>Have feedback? </br><a href="mailto:gameprototypes@nytimes.com?Subject=Books%20Feedback">Email Us »</a></p>
+      </div>
+    </div>
+
+  <!-- Concierge -->
+  <div id="concierge">
+    <section id="welcome">
+        <div>
+        <h1>Books</h1>
+        <p>Rearrange the books so the colors are all together</p>
+        <ul>
+          <li>Drag and drop books to rearrange the pile</li>
+          <li>All books of the same color have to touch</li>
+          <li>Beat your best time in as few moves as possible</li>
+        </ul>
+      </div>
+      <div>
+        <p>Swipe up to start!</p>
+        <div class="arrow bounce"></div>
+      </div>
+    </section>
+  </div>
+
+</div>
+  <main>
+    <div id="root"></div>
+  </main>
+
+</body>
+
+</html>

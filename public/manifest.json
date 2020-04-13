@@ -1,0 +1,9 @@
+{
+  "short_name": "BookStacker",
+  "name": "Books Game Prototype",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
